@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="coke2" sideLength="0.120000"/>
+        <CylinderTarget name="coke-can-label2" sideLength="0.090000"/>
+        <CylinderTarget name="coke-can-label" sideLength="0.090000"/>
+        <ImageTarget name="tea-box-front" size="0.075000 0.130058"/>
+        <ImageTarget name="coca-cola" size="0.065000 0.120597"/>
+        <ImageTarget name="tea-box2.Bottom" size="0.075000 0.064752"/>
+        <ImageTarget name="tea-box2.Top" size="0.075000 0.065160"/>
+        <ImageTarget name="tea-box2.Back" size="0.075000 0.130242"/>
+        <ImageTarget name="tea-box2.Left" size="0.065000 0.130000"/>
+        <ImageTarget name="tea-box2.Right" size="0.065000 0.130042"/>
+        <ImageTarget name="tea-box2.Front" size="0.075000 0.130058"/>
+        <MultiTarget name="tea-box2">
+            <Part name="tea-box2.Left" translation="-0.03750000149011612 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="tea-box2.Right" translation="0.03750000149011612 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="tea-box2.Front" translation="0 0 0.032499998807907104" rotation="AD: 1 0 0 0"/>
+            <Part name="tea-box2.Back" translation="0 0 -0.032499998807907104" rotation="AD: 0 1 0 180"/>
+            <Part name="tea-box2.Top" translation="0 0.06499999761581421 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="tea-box2.Bottom" translation="0 -0.06499999761581421 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

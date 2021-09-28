@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VuforiaUnityInfo version="7.0">
+    <TargetSet version="5.0" toolVersion="2.8.0">
+        <CylinderTarget name="coke2" version="3.0" targetId="44ebd4c22a1b475e9531575852033cbb" sideLength="0.120000" topDiameter="0.065000" bottomDiameter="0.065000" sideImage="coke2.Body_scaled.jpg" topImage="coke2.Top_scaled.jpg" bottomImage="coke2.Bottom_scaled.jpg"/>
+        <CylinderTarget name="coke-can-label2" version="3.0" targetId="170f32d445c7433aab0694b23b3287d2" sideLength="0.090000" topDiameter="0.065000" bottomDiameter="0.065000" sideImage="coke-can-label2.Body_scaled.jpg" topImage="coke-can-label2.Top_scaled.jpg" bottomImage="coke-can-label2.Bottom_scaled.jpg"/>
+        <CylinderTarget name="coke-can-label" version="3.0" targetId="2df44fb721df445eb8c19c38c407b37f" sideLength="0.090000" topDiameter="0.065000" bottomDiameter="0.065000" sideImage="coke-can-label.Body_scaled.jpg" topImage="coke-can-label.Top_scaled.jpg" bottomImage="coke-can-label.Bottom_scaled.jpg"/>
+    </TargetSet>
+</VuforiaUnityInfo>
