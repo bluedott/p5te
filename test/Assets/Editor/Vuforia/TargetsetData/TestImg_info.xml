@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_config.xsd">
   <TargetSet version="5.0" toolVersion="4.2.0">
+    <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2021-09-28T14:46:35Z" name="tuborg" targetId="fd4a337b945447b3b78f33ea6f3f4807" version="12.0" />
+    <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2021-09-28T14:33:44Z" name="fish" targetId="700634745a8d4b2abebe7fa6e43d18a5" version="12.0" />
     <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2021-09-24T13:22:22Z" name="aldi" targetId="340b2b314f17421d8945acb29893a957" version="12.0" />
     <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2021-09-24T13:12:56Z" name="carImproved" targetId="d16448b5f211482089c94654dcd73d50" version="12.0" />
     <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2021-09-24T13:00:18Z" name="car" targetId="d74b8518a237489cbec2973de2e059ff" version="12.0" />
