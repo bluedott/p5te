@@ -1,12 +1,13 @@
 {
   "dependencies": {
     "com.ptc.vuforia.engine": {
-      "version": "file:com.ptc.vuforia.engine-10.1.4.tgz",
+      "version": "10.1.4",
       "depth": 0,
-      "source": "local-tarball",
+      "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0"
-      }
+      },
+      "url": "https://registry.molae.duckdns.org"
     },
     "com.unity.collab-proxy": {
       "version": "1.9.0",
