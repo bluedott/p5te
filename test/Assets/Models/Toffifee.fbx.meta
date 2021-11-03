@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: 981023c6b0167d44e9bcd525fe7b835d
+ModelImporter:
+  serializedVersion: 21100
+  internalIDToNameTable:
+  - first:
+      74: -7908974136893319565
+    second: OpenBox
+  - first:
+      74: -4043724538987829586
+    second: Toffifee_Box_Outside|Toffifee_PieceAction
+  - first:
+      74: -7922532563621106858
+    second: MoveLid
+  - first:
+      74: 6883764156464749428
+    second: Toffifee_Box_Outside|Toffifee_TrayAction
+  - first:
+      74: 7530730263001120737
+    second: Toffifee_Box_Inside|Toffifee_Box_OutsideAction
+  - first:
+      74: 8976970984936491284
+    second: Toffifee_Box_Inside|Toffifee_PieceAction
+  - first:
+      74: -1651026299324563080
+    second: Toffifee_Box_Inside|Toffifee_PieceAction.002
+  - first:
+      74: -1230139991333402800
+    second: Toffifee_Box_Inside|Toffifee_TrayAction
+  - first:
+      74: 5427197459742308233
+    second: Toffifee_Tray|Toffifee_Box_OutsideAction
+  - first:
+      74: -2180883333864971109
+    second: Toffifee_Tray|Toffifee_PieceAction
+  - first:
+      74: -4009989873661262929
+    second: Toffifee_Tray|Toffifee_PieceAction.002
+  - first:
+      74: -4602495265576345208
+    second: Toffifee_Tray|Toffifee_TrayAction
+  - first:
+      74: 5550828943284768072
+    second: Toffifee_Piece|Toffifee_Box_OutsideAction
+  - first:
+      74: 5424161869368706561
+    second: Toffifee_Piece|Toffifee_PieceAction
+  - first:
+      74: -3528609174502309037
+    second: Toffifee_Piece|Toffifee_PieceAction.002
+  - first:
+      74: -3822284277593169010
+    second: Toffifee_Piece|Toffifee_TrayAction
+  - first:
+      74: -596203734062339135
+    second: Toffifee_Piece.001|Toffifee_Box_OutsideAction
+  - first:
+      74: -8285128225541450698
+    second: Toffifee_Piece.001|Toffifee_PieceAction
+  - first:
+      74: 6020043532183819911
+    second: MoveToffifee
+  - first:
+      74: 5090526184635304273
+    second: Toffifee_Piece.001|Toffifee_TrayAction
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chocolate
+    second: {fileID: 2100000, guid: aad48da352fb717448adc3d99225fca6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ToffifeePiece
+    second: {fileID: 2100000, guid: 2f21a2321c0ed184f95c31325eadafd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ToffifeePieceforCam
+    second: {fileID: 2100000, guid: 930cd46affd393e4da95f7930aa61484, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tray
+    second: {fileID: 2100000, guid: 70233192acc280348ad229f859688bf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ext
+    second: {fileID: 2100000, guid: 37bea9217c5f0604a80fdf0468682c41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: inside
+    second: {fileID: 2100000, guid: a74059653c4083740bd20fb6eed43eb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex
+    second: {fileID: 2100000, guid: f0ea6563971e95844a175e6d76dd6b65, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: OpenBox
+      takeName: Toffifee_Box_Outside|Toffifee_Box_OutsideAction
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 629
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MoveLid
+      takeName: Toffifee_Box_Outside|Toffifee_PieceAction.002
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 530
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MoveToffifee
+      takeName: Toffifee_Piece.001|Toffifee_PieceAction.002
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 530
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
