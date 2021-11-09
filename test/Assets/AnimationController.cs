@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,25 +9,14 @@ public class AnimationController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(Update());
 
     }
 
-    // Update is called once per frame
-    IEnumerator Update()
+    private void Update()
     {
-        for (int i  = 0; i<Input.touchCount; ++i)
+        if (Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            if (Input.GetTouch(i).phase == TouchPhase.Began && anim.GetCurrentAnimatorStateInfo(0).IsName("None"))
-            {
-                anim.Play("OpenBox");
-            }
-        else if (Input.GetTouch(i).phase == TouchPhase.Began && anim.GetCurrentAnimatorStateInfo(0).IsName("OpenBox"))
-            {
-                yield return new WaitForSeconds(3);
-                anim.Play("CloseBox");
-            }
+            anim.SetTrigger("OnTouch");
         }
-            
     }
 }
