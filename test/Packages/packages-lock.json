@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.ptc.vuforia.engine": {
-      "version": "10.1.4",
+      "version": "10.3.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
