@@ -14,9 +14,19 @@ public class AnimationController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetTouch(0).phase == TouchPhase.Began)
+        if ((Input.touchCount > 0) && (Input.GetTouch(0).phase == TouchPhase.Began))
         {
-            anim.SetTrigger("OnTouch");
+            Ray raycast = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+            RaycastHit raycastHit;
+            if (Physics.Raycast(raycast, out raycastHit))
+            {
+                if (raycastHit.collider.name == "Toffifee")
+                {
+                    anim.SetTrigger("OnTouch");
+                }
+
+            }
         }
     }
+
 }
