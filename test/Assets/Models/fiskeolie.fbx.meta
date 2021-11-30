@@ -165,7 +165,27 @@ ModelImporter:
   - first:
       74: -2810710034365096195
     second: Pill|LidAction
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: eb81dc4b8f287a647959d1609d5c427e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Baseext
+    second: {fileID: 2100000, guid: 59452e8e148669447b91eb1f9e5db92b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brand
+    second: {fileID: 2100000, guid: 7aa5993d3e76ed54db3e4f132b860a2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: transpfluid
+    second: {fileID: 2100000, guid: 266e6fd0e60f25a43b68faf1d1d88d79, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
