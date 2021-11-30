@@ -165,6 +165,60 @@ ModelImporter:
   - first:
       74: -2810710034365096195
     second: Pill|LidAction
+  - first:
+      74: 8085033786474600237
+    second: Cube.026|Area.004Action
+  - first:
+      74: -3640513864230311544
+    second: Cube.026|BottleAction
+  - first:
+      74: -6336827620082823391
+    second: Cube.026|Cube.013Action
+  - first:
+      74: -2367215775023780377
+    second: Cube.026|Cube.014Action
+  - first:
+      74: -3506395455378995344
+    second: Cube.026|Cube.015Action
+  - first:
+      74: -2693315681782497372
+    second: Cube.026|Cube.016Action
+  - first:
+      74: -6107141590663208919
+    second: Cube.026|Cube.017Action
+  - first:
+      74: -252138584456322437
+    second: Cube.026|Cube.018Action
+  - first:
+      74: 4868858734609940338
+    second: Cube.026|Cube.019Action
+  - first:
+      74: 7180799861055409545
+    second: Cube.026|Cube.020Action
+  - first:
+      74: 2060622425817212730
+    second: Cube.026|Cube.021Action
+  - first:
+      74: 8224878346115849128
+    second: Cube.026|Cube.022Action
+  - first:
+      74: 8237550579818135483
+    second: Cube.026|Cube.023Action
+  - first:
+      74: -1991933278431545756
+    second: Cube.026|Cube.024Action
+  - first:
+      74: 5580927712639375830
+    second: Cube.026|Cube.025Action
+  - first:
+      74: 4243729287644002201
+    second: Cube.026|Cube.026Action
+  - first:
+      74: -7954513300504546100
+    second: Cube.026|Cube.027Action
+  - first:
+      74: -1494778055820415154
+    second: Cube.026|LidAction
   externalObjects:
   - first:
       type: UnityEngine:Material
