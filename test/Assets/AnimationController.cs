@@ -24,6 +24,10 @@ public class AnimationController : MonoBehaviour
                 {
                     anim.SetTrigger("OnTouch");
                 }
+                else if(raycastHit.collider.name == "fiskeolie")
+                {
+                    anim.SetTrigger("fishCollide");
+                }
 
             }
         }
