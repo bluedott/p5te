@@ -7,6 +7,7 @@ TagManager:
   - 3dText
   - Toffifee
   - target
+  - nutrients
   layers:
   - Default
   - TransparentFX
