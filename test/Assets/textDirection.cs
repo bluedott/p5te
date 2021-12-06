@@ -4,60 +4,66 @@ using UnityEngine;
 
 public class textDirection : MonoBehaviour
 {
-    Vector3 Tpos;
-    GameObject tf;
-    Vector3 tp;
-    Vector3 size;
-    // Start is called before the first frame update
+    Vector3 targetPos;
+    GameObject target;
+    Vector3 objectPos;
+    Vector3 targetSize;
+
     void Start()
     {
-
-        //InvokeRepeating("getPos", 2.0f, 2.0f);
-        tf = GameObject.FindGameObjectWithTag("target");
-        size = tf.GetComponent<Collider>().bounds.size;
+        target = GameObject.FindGameObjectWithTag("target");
     }
 
     void OnEnable()
     {
-        Tpos = GameObject.FindGameObjectWithTag("target").transform.position;
-        Vector3 tp = new Vector3(Tpos.x, Tpos.y, Tpos.z);
-        transform.position = Tpos;
-    }
-
-    void OnDisable()
-    {
-
+        targetPos = target.transform.position;
+        transform.position = targetPos;
     }
 
     // Update is called once per frame
     void Update()
     {
-        size = tf.GetComponent<Collider>().bounds.size;
-        tp = transform.position;
-        Tpos = GameObject.FindGameObjectWithTag("target").transform.position;
-        Debug.Log(size);
-        Debug.Log(tp);
-        if (tp.x < (Tpos.x - size.x/2))
+        targetSize = target.GetComponent<Collider>().bounds.size;
+        objectPos = transform.position;
+        targetPos = target.transform.position;
+
+        //X position
+        if (objectPos.x < (targetPos.x - targetSize.x/2))
         {
-            transform.position = new Vector3(tp.x + 0.005f, tp.y, tp.z);
+            transform.position = new Vector3(objectPos.x + 0.005f, objectPos.y, objectPos.z);
+            Debug.Log("Down");
         }
-        else if (tp.x > (Tpos.x + size.x / 2))
+        else if (objectPos.x > (targetPos.x + targetSize.x/2))
         {
-            transform.position = new Vector3(tp.x - 0.005f, tp.y, tp.z);
+            transform.position = new Vector3(objectPos.x - 0.005f, objectPos.y, objectPos.z);
+            Debug.Log("Up");
         }
 
-
-        if (tp.y < (Tpos.y - size.y / 2))
+        //Y position
+        if (objectPos.y < (targetPos.y - targetSize.y/2))
         {
-            transform.position = new Vector3(tp.x, tp.y + 0.005f, tp.z);
+            transform.position = new Vector3(objectPos.x, objectPos.y + 0.005f, objectPos.z);
+            Debug.Log("Right");
         }
-        else if (tp.y > (Tpos.y + size.y / 2))
+        else if (objectPos.y > (targetPos.y + targetSize.y/2))
         {
-            transform.position = new Vector3(tp.x, tp.y - 0.005f, tp.z);
+            transform.position = new Vector3(objectPos.x, objectPos.y - 0.005f, objectPos.z);
+                Debug.Log("Left");
         }
 
+        //Z position
+        if (objectPos.z < (targetPos.z - targetSize.z/2))
+        {
+            transform.position = new Vector3(objectPos.x, objectPos.y , objectPos.z + 0.005f);
+        }
+        else if (objectPos.z > (targetPos.z + targetSize.z/2))
+        {
+            transform.position = new Vector3(objectPos.x, objectPos.y , objectPos.z - 0.005f);
+        }
+
+        //Look and rotate towards camera
         transform.LookAt(Camera.main.transform);
         Quaternion q = Camera.main.transform.rotation;
-        transform.rotation = Quaternion.Euler(q.eulerAngles.x, q.eulerAngles.y, q.eulerAngles.z + 0);
+        transform.rotation = Quaternion.Euler(q.eulerAngles.x, q.eulerAngles.y, q.eulerAngles.z + 90);
     }
 }
